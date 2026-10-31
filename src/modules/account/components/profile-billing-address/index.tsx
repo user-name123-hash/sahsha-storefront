@@ -9,6 +9,7 @@ import NativeSelect from "@modules/common/components/native-select"
 
 import AccountInfo from "../account-info"
 import { HttpTypes } from "@medusajs/types"
+import { addCustomerAddress, updateCustomerAddress } from "@core/data/customer"
 import { loadCSC } from "@lib/util/country-state-city-loader"
 import Select from "@modules/common/components/select"
 
