@@ -1,0 +1,80 @@
+{
+  "compilerOptions": {
+    "target": "ES2017",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "paths": {
+      "*": [
+        "./src/*"
+      ],
+      "@core/constants": [
+        "./src/lib/constants.tsx"
+      ],
+      "@core/data/orders": [
+        "./src/lib/data/orders.ts"
+      ],
+      "@core/data/wishlist": [
+        "./src/lib/data/wishlist.ts"
+      ],
+      "@core/context/wishlist-context": [
+        "./src/lib/context/wishlist-context.tsx"
+      ],
+      "@core/*": [
+        "./node_modules/@pradip1995/commerce-core/src/*"
+      ],
+      "@commerce-auth/*": [
+        "./node_modules/@pradip1995/commerce-auth/src/*"
+      ],
+      "@storefront-config": [
+        "./src/storefront.config.ts"
+      ],
+      "@registry/*": [
+        "./node_modules/@pradip1995/storefront-registry/src/*"
+      ],
+      "@controllers/*": [
+        "./src/controllers/*",
+        "./node_modules/@pradip1995/storefront-controllers/src/*"
+      ],
+      "@theme/*": [
+        "./src/theme/impulse/*"
+      ],
+      "@modules/*": [
+        "./src/modules/*"
+      ],
+      "@lib/*": [
+        "./src/lib/*"
+      ]
+    },
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ]
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    ".next",
+    "src/theme"
+  ]
+}

@@ -1,0 +1,6 @@
+/** Cart fields needed for correct variant thumbnails in bag UI. */
+export const CART_RETRIEVE_FIELDS =
+  "*items, *region, *items.product, *items.product.thumbnail, *items.product.images, *items.product.options, *items.product.variants, +items.product.variants.metadata, +items.product.variants.inventory_quantity, +items.product.variants.manage_inventory, +items.product.variants.allow_backorder, *items.product.variants.options, *items.product.variants.images, *items.variant, +items.variant.metadata, +items.variant.inventory_quantity, +items.variant.manage_inventory, +items.variant.allow_backorder, *items.variant.images, *items.variant.product, *items.variant.product.thumbnail, *items.variant.product.images, *items.variant.product.options, *items.variant.product.variants, +items.variant.product.variants.metadata, *items.variant.options, *items.thumbnail, *items.metadata, +items.total, +items.adjustments, *promotions, +shipping_methods.name, +shipping_methods.adjustments, +shipping_total, +shipping_subtotal, +total, +subtotal, +tax_total, +discount_total"
+
+/** Layout chrome — includes cart-level metadata for buy-now badge filtering. */
+export const CHROME_CART_RETRIEVE_FIELDS = `${CART_RETRIEVE_FIELDS},+metadata`

@@ -1,0 +1,10 @@
+# Modern browsers only — avoids IE11 legacy JS transpilation (~22 KB savings).
+# SWC reads this when browsersListForSwc: true is set in next.config.js.
+> 0.5%
+last 2 Chrome versions
+last 2 Firefox versions
+last 2 Safari versions
+last 2 Edge versions
+not dead
+not IE 11
+not op_mini all

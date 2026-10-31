@@ -1,0 +1,21 @@
+"use strict";
+var __rest = (this && this.__rest) || function (s, e) {
+    var t = {};
+    for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p) && e.indexOf(p) < 0)
+        t[p] = s[p];
+    if (s != null && typeof Object.getOwnPropertySymbols === "function")
+        for (var i = 0, p = Object.getOwnPropertySymbols(s); i < p.length; i++) {
+            if (e.indexOf(p[i]) < 0 && Object.prototype.propertyIsEnumerable.call(s, p[i]))
+                t[p[i]] = s[p[i]];
+        }
+    return t;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+var react_1 = require("react");
+var Phone = function (_a) {
+    var _b = _a.size, size = _b === void 0 ? "20" : _b, _c = _a.color, color = _c === void 0 ? "currentColor" : _c, props = __rest(_a, ["size", "color"]);
+    return (<svg width={size} height={size} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+      <path d="M22 16.92V19.92C22.0011 20.1985 21.944 20.4741 21.8325 20.7294C21.721 20.9846 21.5573 21.2137 21.3521 21.4019C21.1469 21.5901 20.9045 21.7335 20.6407 21.8228C20.3769 21.9122 20.0974 21.9456 19.82 21.92C16.742 21.5855 13.787 20.5341 11.19 18.85C8.77381 17.2995 6.72053 15.2462 5.17 12.83C3.47997 10.2215 2.42752 7.25414 2.09 4.16C2.0645 3.88295 2.09756 3.60368 2.18696 3.34005C2.27636 3.07641 2.4199 2.83416 2.60783 2.62886C2.79576 2.42356 3.02396 2.25965 3.27814 2.14725C3.53232 2.03485 3.80665 1.97645 4.084 1.976H7.084C7.57354 1.97193 8.04753 2.15286 8.4116 2.48261C8.77567 2.81236 9.00412 3.26871 9.051 3.76C9.13825 4.71714 9.37181 5.65868 9.746 6.56C9.88603 6.89241 9.92882 7.25624 9.86901 7.61053C9.80919 7.96482 9.64939 8.29524 9.408 8.56L8.138 9.83C9.57461 12.3555 11.6645 14.4454 14.19 15.88L15.46 14.61C15.7248 14.3686 16.0552 14.2088 16.4095 14.149C16.7638 14.0892 17.1276 14.132 17.46 14.272C18.3613 14.6462 19.3029 14.8797 20.26 14.967C20.756 15.0145 21.2159 15.247 21.5469 15.6175C21.8778 15.988 22.0567 16.4716 22.049 16.971L22 16.92Z" stroke={color} strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+    </svg>);
+};
+exports.default = Phone;

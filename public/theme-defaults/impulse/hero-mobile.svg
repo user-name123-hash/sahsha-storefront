@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 750 960" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="hero-m" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#e8e4df"/>
+      <stop offset="100%" stop-color="#b8b0a6"/>
+    </linearGradient>
+  </defs>
+  <rect width="750" height="960" fill="url(#hero-m)"/>
+</svg>
